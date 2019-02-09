@@ -1,8 +1,8 @@
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/hull-kingston-upon-hull.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -67,9 +67,9 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  border-radius: 10%;
   border: 3px solid white;
   transition: all .5s;
 }
@@ -83,7 +83,7 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
 .location {
   background-color: #222;
   color: yellow;
@@ -120,6 +120,20 @@ ul.skills {
   background: #0399ff;
 }
 
+.intrest-block {
+  max-width: 500px;
+  background:white;
+  margin:auto;
+  padding:15px;
+}
+.intrest-txt {
+padding:15px;
+
+}
+.experience-canb {
+  text-align: left;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
@@ -151,14 +165,11 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.facebook {
+  background-image: url(images/facebook-logo.svg);
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
-}
-a.github {
-  background-image: url(images/github.svg);
 }
 a.social:hover {
   opacity: 1;
@@ -169,10 +180,10 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -204,4 +215,3 @@ a.social:hover {
   }
 
 }
-
